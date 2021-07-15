@@ -7,9 +7,26 @@
     <title>Chat App</title>
     <script src="https://cdn.socket.io/3.1.3/socket.io.min.js" integrity="sha384-cPwlPLvBTa3sKAgddT6krw0cJat7egBga3DJepJyrLl4Q9/5WLra3rrnMcyTyOnh" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/styles/monokai.min.css">
 </head>
 <body>
-   
+
+<h1 style="color: aliceblue;"> 
+    Live coding and chat Website
+</h1>   
+
+    <textarea id="editing1" spellcheck="false" oninput="update(this.value);"   cols="100"
+    rows="30"></textarea>
+
+    <pre id="highlighting" aria-hidden="true">
+      <code class="js" id="highlighting-content" ></code>
+    </pre>
+
+
+         
+
     <div id = "mario-chat">
         <h1>Chat</h1>
             <div id="chat-window">
@@ -23,5 +40,39 @@
 
     </div>
     <script src="./chat.js"></script>
+    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js"></script>
+    <script>var inputarea = document.getElementById("input");
+        function update(text) {
+  let result_element = document.querySelector("#highlighting-content");
+  // Update cod
+  result_element.innerText = text;
+  // Syntax Highlight
+  hljs.highlightAll();
+}
+
+          </script>
+<!-- <script>hljs.highlightAll();</script> -->
+
 </body>
 </html>
+
+
+
+This is an Live Code Sharing and Chatting application which is a NodeJS based Web Application that can be used for coding interviews
+This is a NodeJS based web application
+To get started and run the app:
+
+Clone the project.
+Run npm install to install the corresponding node packages
+Run npm start to run the app on http://localhost:3000
+Features Of the application:
+
+Login and SignUp to the application
+Create new task to be shared
+Live Code Sharing
+Code Syntax highlighting
+Live highlighting
+Live chatting
+Here is a demo video of the application point_down.
