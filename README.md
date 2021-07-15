@@ -27,5 +27,5 @@ Features Of the application:
 -Live chatting
 <br/>
 <br/>
-Here is a demo video of the application 👇
+Here is a demo video of the application 👇<br/>
 https://user-images.githubusercontent.com/64312638/125810419-3ce16de5-ce44-4da9-b3f7-56b5fe8ec6c9.mp4
