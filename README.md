@@ -1,5 +1,5 @@
 # Code-share-with-chat
-This is an Live Code Sharing and Chat application. This app is based on NodeJs and using SOCKET.IO for backend
+This is a Live Code Sharing and Chat application. This app is based on NodeJs and using SOCKET.IO for backend
 This is a NodeJS based web application
 <br/>
 <br/>
